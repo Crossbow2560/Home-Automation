@@ -2,11 +2,11 @@
 #include <PubSubClient.h>
 
 // WiFi credentials
-const char* ssid = "Deepak_4G";
-const char* password = "ndrek123!";
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
 
 // MQTT server details
-const char* mqtt_server = "192.168.0.113";  // Replace with your MQTT broker IP
+const char* mqtt_server = "YOUR_BROKER_IP";
 
 // Pins for light and fan
 const int lightPin = D5;
